@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.2,
+          "height": 0.3,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -674,7 +674,7 @@
         "uuid": "537f457d-9719-41ea-89c7-39afb0f25936"
       }
     ],
-    "used_designators": "U1,U13-14,#PWR53,#PWR55-58,#PWR71-76,C14,C18,C23-24,C29-32,C34-35,SW9-10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -687,8 +687,32 @@
       "ESP"
     ],
     [
+      "2c046ef4-62ef-4d9d-801e-bfe3df84301b",
+      "can1"
+    ],
+    [
       "8c87acd4-2081-458c-b251-53e233276ff2",
       "ESP1"
+    ],
+    [
+      "70727c92-d750-4c7e-95c8-20e0820def0e",
+      "solenoid_valve"
+    ],
+    [
+      "e0dbbca2-494e-4b2c-9270-2b014d7f4a27",
+      "solenoid_valve1"
+    ],
+    [
+      "3c4eddd9-2f6c-48df-bbb7-01288ca35755",
+      "solenoid_valve2"
+    ],
+    [
+      "1b1d3c2c-89c2-4210-b4e2-6e7b33b504ab",
+      "solenoid_valve3"
+    ],
+    [
+      "884f7e7d-b238-4bb6-a1d8-53bdfde88689",
+      "solenoid_valve4"
     ]
   ],
   "text_variables": {},
