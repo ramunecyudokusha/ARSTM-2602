@@ -5,6 +5,189 @@
 	(uuid "11343351-175f-4caf-8415-625788e6236b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -3063,6 +3246,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 35.56) (xy 204.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027ee693-b957-46cc-b119-b4529c300bc0")
+	)
+	(wire
+		(pts
 			(xy 213.36 59.69) (xy 213.36 64.77)
 		)
 		(stroke
@@ -3353,6 +3546,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 33.02) (xy 201.93 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ed9f86-0dd7-4226-bb84-c29c349e9bf7")
+	)
+	(wire
+		(pts
 			(xy 50.8 85.09) (xy 50.8 87.63)
 		)
 		(stroke
@@ -3480,6 +3683,16 @@
 			(type default)
 		)
 		(uuid "8780fa75-31b1-47b5-8e2d-19f9aad2fe7f")
+	)
+	(wire
+		(pts
+			(xy 204.47 35.56) (xy 204.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a06b421-f1dd-457d-ad64-c077527cc00d")
 	)
 	(wire
 		(pts
@@ -3921,6 +4134,16 @@
 		)
 		(uuid "63f58546-453d-4b20-8e0c-243484aae5ae")
 	)
+	(label "emergency_sw"
+		(at 201.93 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64f5e014-2795-44d6-a557-d345dafa693d")
+	)
 	(label "miso"
 		(at 121.92 71.12 180)
 		(effects
@@ -4185,7 +4408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b10829b-c5ab-4536-997e-6eac6682295c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 50.8 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4245,11 +4468,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4267,7 +4490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d9e7503-ab24-4b16-ad1a-0b84f5fdfdb6")
-		(property "Reference" "C25"
+		(property "Reference" "C15"
 			(at 179.832 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,11 +4554,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "C25")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "C26")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4421,7 +4644,7 @@
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4742,7 +4965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34070121-81e7-4983-a715-aef598504b78")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 243.84 73.1138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4806,11 +5029,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "C22")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4911,7 +5134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45fed072-18b5-403f-9646-4a02fc37900f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR032"
 			(at 203.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4971,11 +5194,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR028")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR043")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5065,6 +5288,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 194.31 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bc9e081-a5d9-4916-8628-c26792dd6bbc")
+		(property "Reference" "J14"
+			(at 194.945 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 194.945 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc54cfee-a0ae-4e31-be07-4fe08ea1e195")
+		)
+		(pin "2"
+			(uuid "110b80d6-c5ea-4412-9b7b-d7e05f2d3dea")
+		)
+		(instances
+			(project "ARSTM2602"
+				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
+					(reference "J14")
+					(unit 1)
+				)
+				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 63.5 0)
 		(unit 1)
@@ -5076,7 +5383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "513c56f3-a6ca-43e0-9f6b-6d6b9adde874")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 105.41 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5136,11 +5443,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5158,7 +5465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ebbb5ef-358a-4f4c-b332-e41423a618a2")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5218,11 +5525,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR045")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5240,7 +5547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65e443d8-91c9-4f70-810f-7771c1298de2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR034"
 			(at 213.36 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5300,11 +5607,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR011")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR046")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5322,7 +5629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c040085-8f07-4c44-ae4c-c0838080d1af")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 140.97 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5382,11 +5689,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR041")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f7abd59-d6a1-4b91-9362-2e556c7b7d9e")
-		(property "Reference" "J11"
+		(property "Reference" "J13"
 			(at 50.8 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,11 +5812,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "J11")
+					(reference "J13")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "J14")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -5527,7 +5834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9452b783-e824-4fe9-9318-1f60fbfb56b9")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR031"
 			(at 170.18 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5587,11 +5894,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR047")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5609,7 +5916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96221063-27af-4ced-ba37-f4262baf44c4")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 104.14 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5671,11 +5978,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -5776,7 +6083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0c41965-e02e-46ed-b727-1b84b18a4f41")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5836,11 +6143,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR039")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5945,7 +6252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5a098e2-02b1-4837-9029-b9121d2709aa")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 97.79 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6005,11 +6312,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR038")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6027,7 +6334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b61d4951-267d-4cc1-991e-be30f7c927f7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 83.82 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6087,11 +6394,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6183,6 +6490,87 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 204.47 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca8f73ef-4104-4501-a545-acfaa183249b")
+		(property "Reference" "#PWR033"
+			(at 204.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e1e646c-852c-48f4-94ab-debd8795f652")
+		)
+		(instances
+			(project "ARSTM2602"
+				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 140.97 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -6193,7 +6581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb44123b-c92d-4b66-8ce4-0a47630872f2")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6253,11 +6641,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR042")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6275,7 +6663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce8d59e-a9bf-4b68-a0f6-db5a0a86954b")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 97.79 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,11 +6725,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -6358,7 +6746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de2d2d0b-c467-4c2a-82ca-8cd1f74efd07")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR035"
 			(at 224.79 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6418,11 +6806,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR029")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR044")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6439,7 +6827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deae7fa2-c72f-4c15-b33d-41a77da38db5")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 211.328 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,11 +6891,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "C20")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6525,7 +6913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3caecf7-4077-4127-94c6-1ffcd1cf5392")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 230.632 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6589,11 +6977,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "C21")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6611,7 +6999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eecf6133-3273-4321-a8ec-9ca991eef184")
-		(property "Reference" "C23"
+		(property "Reference" "C14"
 			(at 168.402 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,11 +7063,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "C23")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "C24")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -6697,7 +7085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9317733-8d39-4a48-8952-53db430aab24")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 69.85 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6758,11 +7146,11 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/1818fe2e-8d63-461c-a592-c1a19b493a42"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/8c87acd4-2081-458c-b251-53e233276ff2"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

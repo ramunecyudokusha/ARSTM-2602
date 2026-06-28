@@ -1811,7 +1811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "391ab450-50d1-4f62-8faa-3ffb62284c0e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1872,7 +1872,7 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/2c046ef4-62ef-4d9d-801e-bfe3df84301b"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1889,7 +1889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4548a54f-a07b-41ce-bd0c-d504691a7e4e")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 113.792 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1953,7 +1953,7 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/2c046ef4-62ef-4d9d-801e-bfe3df84301b"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -1971,7 +1971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50a12056-cb0d-4ae5-92f8-3fd02bfd6792")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 106.68 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2032,7 +2032,7 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/2c046ef4-62ef-4d9d-801e-bfe3df84301b"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59ea1e40-c4e7-4e09-b976-57e9feb97379")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2111,7 +2111,7 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/2c046ef4-62ef-4d9d-801e-bfe3df84301b"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2211,7 +2211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "978bb5cd-6ca8-40c2-b0a6-5890b213b902")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 114.3 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2271,7 +2271,7 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/2c046ef4-62ef-4d9d-801e-bfe3df84301b"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2438,7 +2438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c10106a2-37ec-4103-943f-c324b8b3f3dd")
-		(property "Reference" "J12"
+		(property "Reference" "J15"
 			(at 87.63 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2502,7 +2502,7 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/2c046ef4-62ef-4d9d-801e-bfe3df84301b"
-					(reference "J12")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -2520,7 +2520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d163e0f6-f9e2-443e-8893-dfeee8b252fc")
-		(property "Reference" "SW5"
+		(property "Reference" "SW4"
 			(at 63.5 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2594,7 +2594,7 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/2c046ef4-62ef-4d9d-801e-bfe3df84301b"
-					(reference "SW5")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -2611,7 +2611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db1bb23e-eaca-4756-8a05-573f29b778fc")
-		(property "Reference" "J13"
+		(property "Reference" "J16"
 			(at 109.22 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2675,7 +2675,7 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/2c046ef4-62ef-4d9d-801e-bfe3df84301b"
-					(reference "J13")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -2692,7 +2692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faabea90-0be0-41af-957b-9a50304a2352")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 103.378 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2756,7 +2756,7 @@
 		(instances
 			(project "ARSTM2602"
 				(path "/537f457d-9719-41ea-89c7-39afb0f25936/2c046ef4-62ef-4d9d-801e-bfe3df84301b"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
