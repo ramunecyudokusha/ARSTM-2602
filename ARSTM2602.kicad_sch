@@ -4084,6 +4084,12 @@
 		(uuid "59908e47-0ed4-43c7-9688-b756894420c4")
 	)
 	(junction
+		(at 185.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59bec6b5-a878-4764-bad4-cc3c566f4507")
+	)
+	(junction
 		(at 105.41 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4332,6 +4338,16 @@
 			(type default)
 		)
 		(uuid "0c630cf6-61ae-48d1-bb75-aac9b7a51ecb")
+	)
+	(wire
+		(pts
+			(xy 185.42 48.26) (xy 185.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da71fb3-57cb-4d69-ae2c-140f4433f39c")
 	)
 	(wire
 		(pts
@@ -4902,6 +4918,16 @@
 			(type default)
 		)
 		(uuid "6c11595e-806f-44ce-a430-9daf2ca42532")
+	)
+	(wire
+		(pts
+			(xy 185.42 48.26) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c71d11b-9cae-4637-bbd8-93f4420fa796")
 	)
 	(wire
 		(pts
@@ -5585,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 34.29) (xy 185.42 57.15)
+			(xy 185.42 34.29) (xy 185.42 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8073,7 +8099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 193.04 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9215,7 +9241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 193.04 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9376,7 +9402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 193.04 100.33 0)
 			(hide yes)
 			(show_name no)

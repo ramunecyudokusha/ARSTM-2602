@@ -3816,6 +3816,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 60.96) (xy 125.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1eea06-88ac-4de6-9778-63f42d7d9a4a")
+	)
+	(wire
+		(pts
 			(xy 92.71 62.23) (xy 105.41 62.23)
 		)
 		(stroke
@@ -4076,6 +4086,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 83.82) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7166af-9476-40d7-ae23-ae12dbd4b358")
+	)
+	(wire
+		(pts
 			(xy 224.79 78.74) (xy 224.79 81.28)
 		)
 		(stroke
@@ -4193,6 +4213,16 @@
 			(justify right bottom)
 		)
 		(uuid "97e05642-c8cb-47d2-a454-32fba7803699")
+	)
+	(label "emergency_sw"
+		(at 120.65 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9f13954-64e2-44a1-8f82-fe8574fbed23")
 	)
 	(label "miso"
 		(at 83.82 31.75 180)
@@ -5319,7 +5349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 194.31 35.56 0)
 			(hide yes)
 			(show_name no)
